@@ -32,12 +32,6 @@
                 android:layout_height="wrap_content"
                 android:text="Play Sound" />
 
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Change Password" />
-
             <FrameLayout
                 android:id="@android:id/tabcontent"
                 android:layout_width="match_parent"
@@ -47,6 +41,12 @@
                     android:id="@+id/Admin Tab"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change Password" />
 
                 </LinearLayout>
 
