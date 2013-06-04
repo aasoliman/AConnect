@@ -38,7 +38,7 @@
                 android:layout_height="match_parent" >
 
                 <LinearLayout
-                    android:id="@+id/Admin Tab"
+                    android:id="@+id/Admin_Tab"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
 
