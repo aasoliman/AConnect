@@ -3,7 +3,7 @@ package cgu.edu.ist380.solimana.Project.AConnect;
 public class FB_Record {
 
 	
-	private String name1;
+	private String name;
 	private String image; //image file path
 	private String sound; //sound file path
 	private String cat_tab; //category tab
