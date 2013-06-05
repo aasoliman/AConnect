@@ -1,6 +1,6 @@
 package cgu.edu.ist380.solimana.Project.AConnect;
 
-public class Function {
+public class FB_Record {
 
 	
 	private String name;
@@ -13,7 +13,7 @@ public class Function {
 	public int getNumber_of_clicks() {
 		return number_of_clicks;
 	}
-	public Function(String cat_tab, Long date_created, int number_of_clicks) {
+	public FB_Record(String cat_tab, Long date_created, int number_of_clicks) {
 		super();
 		this.cat_tab = "General";//To add it to the General tab as a default option
 		this.date_created = System.currentTimeMillis();//current time
