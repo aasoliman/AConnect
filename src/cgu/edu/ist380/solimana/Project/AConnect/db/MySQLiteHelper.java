@@ -1,4 +1,4 @@
-package cgu.edu.ist380.solimana.Project.AConnect;
+package cgu.edu.ist380.solimana.Project.AConnect.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

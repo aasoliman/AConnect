@@ -1,23 +1,28 @@
-package cgu.edu.ist380.solimana.Project.AConnect;
+package cgu.edu.ist380.solimana.Project.AConnect.db;
 
 public class FB_Record {
 
 	
 	private String name;
-	private String image; //image file path
+	private String image; //image file path	
 	private String sound; //sound file path
 	private String cat_tab; //category tab
 	private Long date_created; //revisit to check if you can manipulate it
 	private int number_of_clicks;
+	private int id;
 	
 	public int getNumber_of_clicks() {
 		return number_of_clicks;
 	}
-	public FB_Record(String cat_tab, Long date_created, int number_of_clicks) {
+	public int getId() {
+		return id;
+	}
+	public FB_Record(){ 
+		//String cat_tab, Long date_created, int number_of_clicks) {
 		super();
-		this.cat_tab = "General";//To add it to the General tab as a default option
+		/*this.cat_tab = "General";//To add it to the General tab as a default option
 		this.date_created = System.currentTimeMillis();//current time
-		this.number_of_clicks = 0;
+		this.number_of_clicks = 0;*/
 	}		
 	public void setNumber_of_clicks(int number_of_clicks) {
 		this.number_of_clicks = number_of_clicks;
@@ -52,5 +57,9 @@ public class FB_Record {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public void setId(int insertedId) {
+		// TODO Auto-generated method stub
+		
 	}
 }
