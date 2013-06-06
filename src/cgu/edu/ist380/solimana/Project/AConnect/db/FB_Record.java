@@ -20,9 +20,9 @@ public class FB_Record {
 	public FB_Record(){ 
 		//String cat_tab, Long date_created, int number_of_clicks) {
 		super();
-		/*this.cat_tab = "General";//To add it to the General tab as a default option
+		this.cat_tab = "General";//To add it to the General tab as a default option
 		this.date_created = System.currentTimeMillis();//current time
-		this.number_of_clicks = 0;*/
+		this.number_of_clicks = 0;
 	}		
 	public void setNumber_of_clicks(int number_of_clicks) {
 		this.number_of_clicks = number_of_clicks;
