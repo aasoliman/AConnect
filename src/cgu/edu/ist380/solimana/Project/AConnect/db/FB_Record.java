@@ -11,12 +11,6 @@ public class FB_Record {
 	private int number_of_clicks;
 	private int id;
 	
-	public int getNumber_of_clicks() {
-		return number_of_clicks;
-	}
-	public int getId() {
-		return id;
-	}
 	public FB_Record(){ 
 		//String cat_tab, Long date_created, int number_of_clicks) {
 		super();
@@ -24,6 +18,13 @@ public class FB_Record {
 		this.date_created = System.currentTimeMillis();//current time
 		this.number_of_clicks = 0;
 	}		
+	
+	public int getNumber_of_clicks() {
+		return number_of_clicks;
+	}
+	public int getId() {
+		return id;
+	}	
 	public void setNumber_of_clicks(int number_of_clicks) {
 		this.number_of_clicks = number_of_clicks;
 	}
@@ -58,8 +59,7 @@ public class FB_Record {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public void setId(int insertedId) {
-		// TODO Auto-generated method stub
-		
+	public void setId(int id) {
+		this.id = id;
 	}
 }
