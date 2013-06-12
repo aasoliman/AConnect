@@ -6,7 +6,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity"
+    android:background="@drawable/connecting">"
 
     <TextView
         android:id="@+id/textView1"
@@ -21,17 +22,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button1"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="76dp"
-        android:text="Admin" />
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="15dp"
+        android:minHeight="128dp"
+        android:text="Admin"
+        android:textSize="24dp" />
 
     <Button
         android:id="@+id/button1"
         style="@dimen/Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/Button01"
         android:layout_alignLeft="@+id/textView1"
-        android:text="User" />
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="37dp"
+        android:minHeight="128dp"
+        android:minWidth="64dp"
+        android:text="User"
+        android:textSize="@dimen/Title" />
 
 </RelativeLayout>
