@@ -41,4 +41,12 @@
         android:text="User"
         android:textSize="@dimen/Title" />
 
+    <Button
+        android:id="@+id/choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button01"
+        android:layout_below="@+id/Button01"
+        android:text="@string/choose" />
+
 </RelativeLayout>
